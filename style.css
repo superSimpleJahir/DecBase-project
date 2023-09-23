@@ -1,0 +1,619 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+/*font-family: 'Open Sans', sans-serif;*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btn {
+  border-radius: 15px 0px;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* nav section */
+header nav.container {
+  margin: 34px auto 94px auto;
+}
+
+nav ul {
+  gap: 25px;
+}
+
+nav ul a {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: #212121;
+  text-transform: uppercase;
+  transition: all .4s ease;
+}
+
+nav ul a:hover {
+  color: #646464;
+}
+
+nav .signUp {
+  background: #CAA892;
+  color: #FFF;
+  padding: 5px 20px;
+  margin-left: 30px;
+}
+
+nav .signUp a {
+  color: #FFF !important;
+}
+
+/* Hero Section  */
+header .heroSection {
+  gap: 44px;
+  position: relative;
+}
+
+header .heroSection .doot {
+  position: absolute;
+  bottom: -62px;
+  left: -264px;
+}
+
+header .heroSection .heroText {
+  max-width: 603px;
+}
+
+header .heroSection h4 {
+  font-family: 'Open Sans', sans-serif;
+  color: #646464;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+header .heroSection h1 {
+  color: #212121;
+  font-size: 72px;
+  font-weight: 600;
+  line-height: 78px;
+  margin: 12px 0 23px 0;
+}
+
+header .heroSection p {
+  color: #646464;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 46px;
+}
+
+header .heroSection button,
+.aboutText button {
+  width: 142.154px;
+  height: 42.808px;
+  border-radius: 20px 0px;
+  background: #37806B;
+  outline: none;
+  border: none;
+}
+
+header .heroSection button a,
+.aboutText button a {
+  color: #FFF;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+header .heroImg {
+  max-width: 700px;
+  position: relative;
+}
+
+header .heroImg .image {
+  border-radius: 140px 0px;
+}
+
+header .heroImg .frem {
+  position: absolute;
+  bottom: -30px;
+  right: -40px;
+  width: 699px;
+  height: 626px;
+  border-radius: 140px 0px;
+  border: 2px solid #B0855B;
+  z-index: -1;
+}
+
+/* service section  */
+
+.service.container {
+  margin: 160px auto 230px auto;
+}
+
+.service h4 {
+  color: #646464;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: -0.2px;
+}
+
+.service h2 {
+  color: #212121;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 78px;
+  margin-bottom: 50px;
+}
+
+.serviceArea {
+  gap: 37px;
+}
+
+.service .service1 {
+  border-radius: 60px 0px;
+  background: #FFF;
+  box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.14);
+  padding: 40px 23px 35px 38px;
+}
+
+.service .service1 .flex {
+  align-items: self-start;
+  gap: 20px;
+}
+
+.service .service2 {
+  background: #CAA892;
+}
+
+.service .service2 .text h3,
+.service .service2 .text p {
+  color: #fff;
+}
+
+.service .service1 h3 {
+  color: #212121;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.service .service1 p {
+  color: #646464;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  letter-spacing: -0.18px;
+}
+
+/* About section  */
+.aboutSection.flex {
+  gap: 150px;
+}
+
+.aboutSection .aboutImg {
+  max-width: 660px;
+  position: relative;
+}
+
+.aboutSection .aboutImg img {
+  border-radius: 140px 0px;
+}
+
+.aboutSection .aboutImg .frem {
+  top: -32px;
+  left: -36px;
+  position: absolute;
+  width: 681px;
+  height: 726px;
+  border-radius: 140px 0px;
+  border: 2px solid #B0855B;
+  z-index: -1;
+}
+
+.aboutSection h5 {
+  color: #646464;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.aboutSection h2 {
+  color: #212121;
+  font-size: 48px;
+  font-weight: 500;
+  margin: 0px 0 22px 0;
+}
+
+.aboutSection p {
+  color: #646464;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  margin-bottom: 46px;
+}
+
+.aboutSection1.container {
+  margin: 224px auto 205px auto;
+}
+
+.aboutSection1 .aboutImg {
+  position: relative;
+}
+
+.aboutSection1 .aboutText h1 {
+  font-size: 220px;
+  margin-bottom: -50px;
+  background-image: url(./img/h1Background.jpg);
+  background-size: cover;
+  background-position: center;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.aboutSection1 .aboutImg .frem {
+  position: absolute;
+  top: 32px;
+  left: 36px;
+}
+
+/* Work section  */
+.workSection {
+  background: #F8F8F8;
+  padding: 87px 0 205px 0;
+  margin-bottom: 160px;
+}
+
+
+
+.workSection .container h3 {
+  color: #212121;
+  text-align: center;
+  font-size: 48px;
+  font-weight: 500;
+  margin-bottom: 187px;
+}
+
+.workSection .project {
+  border-radius: 40px 0px;
+  background: #FFF;
+  box-shadow: 0px 13px 16px 0px rgba(0, 0, 0, 0.10);
+  padding: 47px 50px;
+  text-align: center;
+}
+
+.workSection .project h2 {
+  color: #212121;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.workSection .project h5 {
+  color: #646464;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+
+
+.workDetails .project1 {
+  margin-top: -100px;
+}
+
+.workDetails .project2 {
+  margin-bottom: -100px;
+}
+
+
+.workDetails .project3 {
+  margin-top: -100px;
+}
+
+.workDetails .project4 {
+  margin-bottom: -100px;
+}
+
+/* testimonials section  */
+.testimonials.container {
+  margin-bottom: 180px;
+}
+
+.testimonials h5 {
+  color: #646464;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.testimonials h2 {
+  color: #212121;
+  font-size: 48px;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.testimonials .client1 {
+  border-radius: 70px 0px;
+  background: #FFF;
+  box-shadow: 7px 7px 30px 5px rgba(66, 96, 84, 0.15);
+  width: 571px;
+  padding: 40px 30px 60px 0;
+  gap: 30px;
+}
+
+.testimonials .client1>img {
+  border-radius: 35px 0px;
+  margin-left: -61px;
+}
+
+.testimonials .clientText h3 {
+  color: #212121;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.testimonials .clientText {
+  position: relative;
+}
+
+.testimonials .clientText .coma {
+  position: absolute;
+  right: 2px;
+  top: 0;
+}
+
+.testimonials .clientText h3 span {
+  color: #646464;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+
+.testimonials .clientText p {
+  color: #646464;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+
+/* blogSection */
+.blogSection {
+  background: #F8F8F8;
+  padding: 93px 0 122px 0;
+}
+
+.blogSection h5 {
+  color: #646464;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.blogSection h4 {
+  color: #111;
+  font-size: 48px;
+  font-weight: 500;
+  text-align: center;
+  margin: 22px 0 80px 0;
+}
+
+.blogSection .blog1 {
+  position: relative;
+  z-index: 1;
+}
+
+.blogSection .blog1 img {
+  border-radius: 100px 0px;
+
+}
+
+.blogSection .blog1 .frem {
+  width: 554px;
+  height: 387px;
+  border-radius: 100px 0px;
+  border: 2px solid #B0855B;
+  position: absolute;
+  top: 17px;
+  left: 17px;
+  z-index: -1;
+}
+
+.blogSection .blog1 h2 {
+  color: #212121;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  margin: 59px 0 17px 0;
+}
+
+.blogSection .blog1 p {
+  color: #646464;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  margin-bottom: 45px;
+}
+
+.blogSection .blog1 button {
+  border-radius: 25px 0px;
+  background: #37806B;
+  padding: 14px 35px;
+  outline: none;
+  border: none;
+}
+
+.blogSection .blog1 button a {
+  color: #FFF;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+/* subscribeSection */
+.subscribeSection {
+  padding: 197px 0;
+  text-align: center;
+}
+
+.subscribeSection h1 {
+  color: #212121;
+  font-size: 48px;
+  font-weight: 500;
+  letter-spacing: 3.84px;
+}
+
+.subscribeSection .line {
+  background: #C4C4C4;
+  width: 461px;
+  height: 1px;
+  margin: 37px auto 40px auto;
+}
+
+.subscribeSection p {
+  max-width: 647px;
+  margin: 0 auto;
+  color: #646464;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.subscribeSection form {
+  width: 772px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 20px 0px;
+  background: #EEE;
+  margin: 0 auto;
+}
+
+.subscribeSection form input {
+  max-width: 592px;
+  outline: none;
+  border: none;
+  background: transparent;
+  margin-left: 27px;
+  font-size: 20px;
+}
+
+.subscribeSection form button {
+  border: none;
+  width: 180px;
+  height: 50px;
+  border-radius: 0px 0px 20px 0px;
+  background: #37806B;
+  color: #FFF;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* footer */
+footer {
+  background: #F8F8F8;
+  padding: 93px 0 60px 0;
+}
+
+footer .flex {
+  align-items: flex-start;
+}
+
+footer .companyDetails {
+  max-width: 350px;
+}
+
+footer .companyDetails p {
+  color: #646464;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  margin-top: 15px;
+}
+
+footer .link h4 {
+  color: #212121;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 35px;
+}
+
+footer .link ul li {
+  margin-bottom: 15px;
+}
+
+footer .link ul a {
+  color: #646464;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+}
+
+footer .followUs h4 {
+  margin-bottom: 35px;
+}
+
+footer .social {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+
+footer .followUs a {
+  width: 38px;
+  height: 38px;
+  background: #D5D5D5;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  transition: all;
+}
+
+footer .followUs a:hover {
+  background: #37806B;
+}
+
+.copy.flex {
+  justify-content: center;
+  border-top: 1px solid #C4C4C4;
+  padding: 15px 0 22px 0;
+}
+
+.copy h3 {
+  color: #646464;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+}
+
+.copy h3 span {
+  color: #37806B;
+}

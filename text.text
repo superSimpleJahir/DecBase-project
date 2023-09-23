@@ -1,0 +1,66 @@
+<=====================HTML=====================>
+1:What are the basic building blocks of HTML documents?
+Ans:
+2:How is an HTML tag structured?
+Ans
+3:What is the HTML element for creating a bullet point list?
+Ans:
+4:What is the HTML element for defining the structure of a web page, such as headers, navigation, and content areas?
+Ans:
+5:How can you create a clickable button in HTML?
+Ans:
+5:What is the HTML element for including external JavaScript code?
+Ans:
+6:What does HTML5 introduce that improves the handling of multimedia content?
+Ans:
+7:How do you specify the character encoding for an HTML document?
+Ans:
+8:What is an HTML entity, and why are they used?
+Ans:
+9:What is the purpose of the <iframe> tag in HTML?
+Ans:
+10:What is semantic HTML?
+Ans:
+
+<=====================CSS=====================>
+1: How can you hide an element in CSS?
+Ans:
+2: What is the purpose of the @media rule in CSS?
+Ans:
+3: How do you create a CSS gradient background?
+Ans:
+4: How can you apply styles to an element when a user hovers over it?
+Ans:
+5: What is the purpose of the z-index property in CSS?
+Ans:
+6: How can you include an external font in your CSS?
+Ans:
+7: What is the CSS box-shadow property used for?
+Ans:
+8: How can you apply CSS styles to links in different states (e.g., normal, visited, hover)?
+Ans:
+9: What is a pseudo-class in CSS?
+Ans:
+10: What is the difference between "display:flex" and "display:block"?
+Ans:
+<=====================JS=====================>
+1: What is the purpose of the console.log() function in JavaScript?
+Ans:
+2: What is a callback function in JavaScript?
+Ans:
+3: What is the DOM in JavaScript?
+Ans:
+4: How do you add an event listener in JavaScript?
+Ans:
+5: What is the difference between function declarations and function expressions?
+Ans:
+6: How do you attach an event handler to an HTML element?
+Ans:
+7: Explain the concept of data types in JavaScript. Name some primitive data types.
+Ans:
+8: What is JavaScript, and what is its primary purpose in web development?
+Ans:
+9: How do you perform basic arithmetic operations in JavaScript?
+Ans:
+10: How do you select and manipulate HTML elements using JavaScript?
+Ans:
